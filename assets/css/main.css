@@ -45,7 +45,7 @@
 }
 
 .dark-background {
-  --background-color: #060606;
+  --background-color: #ffffff;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #252525;
@@ -705,7 +705,7 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  /* background-color: var(--background-color); */
+  background-color: var(--default-color);
   padding: 60px 0;
   scroll-margin-top: 90px;
   overflow: clip;
