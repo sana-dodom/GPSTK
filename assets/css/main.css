@@ -981,3 +981,99 @@ section,
   color: var(--surface-color);
 }
 
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+
+
+.about .core-values {
+  margin-top: 30px;
+}
+
+.about .core-values h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color:var(--accent-color);
+  position: relative;
+  padding: 2rem;
+  
+}
+
+
+.about .core-values  h3::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 1px;
+  background: color-mix(in srgb, #ff6600, transparent 60%);
+  left: 0;
+  right: 0;
+  bottom: 1px;
+  margin: auto;
+}
+
+.about .core-values  h3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ff704d;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; 
+
+
+}
+
+
+
+
+
+
+.about .core-values .value-card {
+  background-color: var(--default-color);
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.about .core-values .value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.about .core-values .value-card .value-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  margin-bottom: 20px;
+}
+
+.about .core-values .value-card .value-icon i {
+  font-size: 32px;
+  color: var(--accent-color);
+}
+
+.about .core-values .value-card h4 {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  font-weight: 900;
+  color:var(--background-color);
+}
+
+.about .core-values .value-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  font-weight: 500;
+  color:var(--background-color);
+}
