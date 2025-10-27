@@ -1,0 +1,202 @@
+/*--------------------------------------------------------------
+  # tkurs
+  --------------------------------------------------------------*/
+  .tkurs .icon-box {
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    padding: 50px 30px;
+    transition: all ease-in-out 0.4s;
+    background: #fff;
+  }
+  
+  .tkurs .icon-box .icon {
+    margin-bottom: 10px;
+  }
+  
+  .tkurs .icon-box .icon i {
+    color: #47b2e4;
+    font-size: 36px;
+    transition: 0.3s;
+  }
+  
+  .tkurs .icon-box h4 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .tkurs .icon-box h4 a {
+    color: #37517e;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .tkurs .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .tkurs .icon-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .tkurs .icon-box:hover h4 a {
+    color: #47b2e4;
+  }
+
+  .tkurs .img {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .tkurs .img img {
+    transition: 0.6s;
+  }
+  
+  .tkurs .details {
+    background: color-mix(in srgb, var(--surface-color), transparent 5%);
+    padding: 50px 30px;
+    margin: -100px 30px 0 30px;
+    transition: all ease-in-out 0.3s;
+    position: relative;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.1);
+  }
+  .tkurs .details .icon {
+    margin: 0;
+    width: 72px;
+    height: 72px;
+    background: var(--accent-color);
+    color: var(--contrast-color);
+    border: 6px solid var(--contrast-color);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    transition: ease-in-out 0.3s;
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+  }
+
+  .tkurs .details h3 {
+    font-weight: 700;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .tkurs .details p {
+    color: color-mix(in srgb, var(--default-color), transparent 10%);
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .tkurs .details .tkurs p {
+    font-size: 12px; font-weight: 900; margin: 0; color:#3498db;
+  }
+  
+  .tkurs .details .tkurs h3 {
+    font-size: 16px; font-weight: 700; margin: 0;
+  }
+
+  .tkurs-box {
+    padding: 12px 5px; 
+    border-radius:7px; 
+    background-color:#e5e7e9;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1); 
+    transition: 0.3s; 
+    height: 100%;
+  }
+  .tkurs .service-item:hover .details h3 {
+    color: var(--accent-color);
+  }
+  
+  .tkurs .service-item:hover .details .icon {
+    background: var(--surface-color);
+    border: 2px solid var(--accent-color);
+  }
+  
+  .tkurs .service-item:hover .details .icon i {
+    color: var(--accent-color);
+  }
+  
+  .tkurs .service-item:hover .img img {
+    transform: scale(1.2);
+  }
+
+  .tkurs-box {
+  padding: 12px 5px; 
+  border-radius:7px; 
+  background-color:#eaf2f8;
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1); *
+  transition: 0.3s; 
+  height: 100%;
+}
+
+.tkurs-box h3 {
+  font-size: 16px; 
+  font-weight: 700; 
+  margin: 0;
+}
+
+.tkurs-box p {
+  font-size: 12px; 
+  font-weight: 900; 
+  margin: 0; 
+  color:#3498db;
+}
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #37517e;
+  }
+  
+  .section-title h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #47b2e4;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+    font-size: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .section-title p {
+      font-size: 16px;
+    }
+    .section-title h2 {
+      font-size: 24px;
+    }
+  }
+  
